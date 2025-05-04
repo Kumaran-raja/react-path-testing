@@ -5,7 +5,7 @@ function About() {
   const navigate=useNavigate();
   return (
     <div>
-      <button onClick={()=>{navigate('/')}}>Home</button>
+      <button onClick={()=>{navigate('/',{ replace: true })}}>Home</button>
     </div>
   )
 }

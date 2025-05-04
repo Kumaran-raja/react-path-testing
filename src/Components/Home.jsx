@@ -6,7 +6,7 @@ function Home() {
   
     <div>    
       <h1>Hello</h1>
-      <button onClick={()=>{navigate('/about')}}>About</button>
+      <button onClick={()=>{navigate('/about',{ replace: true })}}>About</button>
     </div>
   )
 }
